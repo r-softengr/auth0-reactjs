@@ -7,10 +7,9 @@ const Login = () => {
     <>
       {!isAuthenticated && (
         <div className="flex flex-col justify-center items-center h-full w-full space-y-9">
-          <h1 className="text-white font-mono">LOGIN TO CONTINUE</h1>
           <button
             type="button"
-            className="rounded bg-gradient-to-r from-cyan-500 to-blue-500 text-white h-10 w-24 text-black
+            className="rounded shadow-lg bg-slate-500 h-10 w-24 text-white
           "
             onClick={() => loginWithRedirect()}
           >
