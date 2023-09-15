@@ -10,7 +10,8 @@ const Login = () => {
           <h1 className="text-white font-mono">LOGIN TO CONTINUE</h1>
           <button
             type="button"
-            className="rounded bg-gradient-to-r from-cyan-500 to-blue-500 text-white h-10 w-24"
+            className="rounded bg-gradient-to-r from-cyan-500 to-blue-500 text-white h-10 w-24 text-black
+          "
             onClick={() => loginWithRedirect()}
           >
             Login
