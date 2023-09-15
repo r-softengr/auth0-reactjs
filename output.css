@@ -675,6 +675,10 @@ html {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/src\/assets\/buildings\.jpg\'\)\] {
+  background-image: url('./src/assets/buildings.jpg');
+}
+
 .from-cyan-500 {
   --tw-gradient-from: #06b6d4 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(6 182 212 / 0) var(--tw-gradient-to-position);
