@@ -12,9 +12,7 @@ const Logout = () => {
               style={{ backgroundImage: `url('${user?.picture}')` }}
               className="shadow-md bg-cover h-24 w-24 rounded-full"
             ></div>
-            <div className="text-slate-500 font-mono text-sm">
-              {user?.nickname}
-            </div>
+            <div className="text-slate-500 font-mono text-sm">{user?.name}</div>
 
             <button
               type="button"
